@@ -1,0 +1,34 @@
+/* Estilos personalizados para a página Sobre Nós */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sobre-mim-section {
+  padding-top: 50px;
+}
+
+.sobre-mim-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.sobre-mim-section p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #fff;
+}
