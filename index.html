@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Óticas da Galera</title>
+  <!-- Bootstrap CSS e Ícones -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Óticas da Galera</a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Óculos de sol</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Armações</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Promoções</a></li>
+        </ul>
+        <!-- Formulário de busca -->
+        <form class="d-flex ms-3">
+          <input class="form-control" type="search" placeholder="Buscar produtos">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/assets/Desktop/banner3-desktop.png" class="d-block w-100" alt="Banner 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Coleção Atemporal</h5>
+          <p>Alto impacto visual, baixo impacto ambiental.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/assets/Desktop/banner2-desktop.png" class="d-block w-100" alt="Banner 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Coleção Atemporal</h5>
+          <p>Estilo para durar.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Busque por categoria -->
+  <div class="container text-center my-5">
+    <h2 class="mb-4">Busque por categoria</h2>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-2 d-flex flex-column align-items-center mb-4">
+        <img src="./img/Captura de tela 2024-12-04 141943.png" class="img-fluid" alt="Masculino" style="height: 200px; object-fit: contain;">
+        <p>Masculino</p>
+      </div>
+      <div class="col-6 col-md-2 d-flex flex-column align-items-center mb-4">
+        <img src="./img/Captura de tela 2024-12-04 141953.png" class="img-fluid" alt="Feminino" style="height: 200px; object-fit: contain;">
+        <p>Feminino</p>
+      </div>
+      <div class="col-6 col-md-2 d-flex flex-column align-items-center mb-4">
+        <img src="./img/Captura de tela 2024-12-04 142022.png" class="img-fluid" alt="Infantil" style="height: 200px; object-fit: contain;">
+        <p>Infantil</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Produtos em destaque -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Produtos em Destaque</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 141647.png" class="card-img-top" alt="Produto 1" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Óculos Aviador</h5>
+          <p class="card-text">Óculos de sol aviador preto.</p>
+          <p><strong>R$ 447,95</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 143735.png" class="card-img-top" alt="Produto 2" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Óculos Retangular</h5>
+          <p class="card-text">Óculos retangular cinza.</p>
+          <p><strong>R$ 149,99</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 144019.png" class="card-img-top" alt="Produto 3" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Óculos de Sol</h5>
+          <p class="card-text">Óculos de sol preto com detalhes em marrom.</p>
+          <p><strong>R$ 630,45</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 144119.png" class="card-img-top" alt="Produto 4" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Lentes</h5>
+          <p class="card-text">Lentes de contato em diversas cores.</p>
+          <p><strong>R$ 120,80</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 144037.png" class="card-img-top" alt="Produto 5" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Óculos de Sol</h5>
+          <p class="card-text">Óculos de sol rosa.</p>
+          <p><strong>R$ 512,95</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./img/Captura de tela 2024-12-04 144726.png" class="card-img-top" alt="Produto 6" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Óculos de Sol</h5>
+          <p class="card-text">Óculos de luxo.</p>
+          <p><strong>R$ 10.500,99</strong></p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-4">
+  <p>&copy; 2024 Óticas do Povo. Todos os direitos reservados.</p>
+  <p>
+    <a href="https://www.instagram.com/mtlima_10/" target="_blank" class="text-light me-3 fs-3" style="text-decoration: none;">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/matheus-lima-0b4935321/" target="_blank" class="text-light me-3 fs-3" style="text-decoration: none;">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://github.com/mttlima" target="_blank" class="text-light fs-3" style="text-decoration: none;">
+      <i class="bi bi-github"></i>
+    </a>
+  </p>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
